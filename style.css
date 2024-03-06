@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridCon {
+    display: flex;
+    width: 90vh;
+    height: 90vh;
+    flex-wrap: wrap;
+    border: solid 1px black;
+}
+
+.gridBox {
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(216, 216, 216);
+    box-sizing: border-box;
+}
